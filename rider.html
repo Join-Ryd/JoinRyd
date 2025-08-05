@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ryd – Ride Local, Skip the Surge</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 15px;
+    }
+
+    h1 {
+      font-size: 2.2em;
+      margin-bottom: 0.3em;
+      color: #00ffb0;
+    }
+
+    h2 {
+      font-weight: 400;
+      font-size: 1.2em;
+      color: #ccc;
+      margin-bottom: 1em;
+    }
+
+    form {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 15px;
+      max-width: 380px;
+      width: 100%;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      margin-bottom: 20px;
+    }
+
+    input[type="text"], input[type="email"] {
+      width: 90%;
+      padding: 10px;
+      border-radius: 6px;
+      border: none;
+      margin-bottom: 12px;
+      font-size: 0.95em;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #00ffb0;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      color: #000;
+      font-size: 1em;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .benefits {
+      margin-top: 20px;
+      max-width: 500px;
+      text-align: left;
+    }
+
+    .benefits h3 {
+      color: #00ffb0;
+      font-size: 1.2em;
+      margin-bottom: 0.5em;
+    }
+
+    .benefits p {
+      color: #eee;
+      margin-bottom: 0.8em;
+      font-size: 0.95em;
+    }
+
+    footer {
+      margin-top: 30px;
+      color: #888;
+      font-size: 0.85em;
+    }
+    </style>
+</head>
+<body>
+  <img src="logo.png" alt="Ryd Logo">
+  <h1>Ride with Ryd</h1>
+  <h2>Florida’s Local Ride App – Built for Riders</h2>
+  
+<!-- Tally embed starts -->
+<iframe data-tally-src="https://tally.so/embed/mD68AR?source=rider&alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1"
+        loading="lazy" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0" 
+        title="Join the Ryd Waitlist"></iframe>
+<script>
+  var d=document,w="https://tally.so/widgets/embed.js",v=function(){
+    "undefined"!=typeof Tally?Tally.loadEmbeds():
+    d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach(function(e){
+      e.src=e.dataset.tallySrc
+    })
+  };
+  if("undefined"!=typeof Tally)v();
+  else if(d.querySelector('script[src="'+w+'"]')==null){
+    var s=d.createElement("script");
+    s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);
+  }
+</script>
+<!-- Tally embed ends -->
+
+  <div class="benefits">
+    <h3>Why Ride with Ryd?</h3>
+    <p><strong>🚫 No Surge Pricing</strong> – What you see is what you pay. No hidden fees or price spikes.</p>
+    <p><strong>🌴 Local, Friendly Drivers</strong> – Our drivers know Orlando, Kissimmee, Winter Park, and nearby cities like the back of their hand.</p>
+    <p><strong>🎁 Free Ride Perks</strong> – Ride 10 times, get your 11th free. Refer friends and get ride credits!</p>
+  </div>
+  <footer>&copy; 2025 Ryd. All rights reserved.</footer>
+</body>
+</html>
